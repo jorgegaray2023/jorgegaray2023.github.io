@@ -10129,15 +10129,17 @@ h6,
   padding: 0;
   list-style-type: none;
 }
-
-.botones-container {
+.whatsapp-button {      position: fixed;      
+  bottom: 20px; /* Distancia desde abajo */
+  right: 20px; /* Distancia desde la derecha */
+  padding: 10px 20px;
+  background-color: green; /* Color de fondo del botón */
+  color: white; /* Color del texto */
+  border-radius: 5px;
+  text-decoration: none;
   display: flex;
-  flex-direction: column;
-  position: fixed; /* O relative según el contexto */
-  bottom: 20px;
-  right: 20px;
+  align-items: center;
 }
-
-.botones-container a {
-  margin-bottom: 100px;
+.whatsapp-button i {
+margin-right: 10px;
 }
