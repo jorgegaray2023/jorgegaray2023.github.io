@@ -10129,9 +10129,10 @@ h6,
   padding: 0;
   list-style-type: none;
 }
-.whatsapp-button {      position: fixed;      
-  bottom: 20px; /* Distancia desde abajo */
-  right: 20px; /* Distancia desde la derecha */
+.whatsapp-button {      
+  position: fixed;      
+  bottom: 50px; /* Distancia desde abajo */
+  right: 50px; /* Distancia desde la derecha */
   padding: 10px 20px;
   background-color: green; /* Color de fondo del botón */
   color: white; /* Color del texto */
@@ -10141,5 +10142,5 @@ h6,
   align-items: center;
 }
 .whatsapp-button i {
-margin-right: 10px;
+margin-right: 50px;
 }
